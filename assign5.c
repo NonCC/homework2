@@ -12,7 +12,7 @@ int main(void)
     }
     else if( x%2!=0)
     {
-    printf("even\n");    
+    printf("odd\n");    
     }
     else
     {
