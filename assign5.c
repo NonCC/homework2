@@ -6,7 +6,9 @@ int main(void)
     do
     {
     scanf("%d",&x);
-    if (x%2==0)
+    if (x == 0)
+    break;
+    else if (x%2==0)
     {
     printf("even\n");
     }
@@ -16,7 +18,7 @@ int main(void)
     }
     else
     {
-    break;
+    printf(“error”);
     }
     
     } while (x != 0);
